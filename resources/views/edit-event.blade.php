@@ -5,7 +5,7 @@
     <h3>Add New Event</h3>
     <div class="card">
         <div class="card-body">
-            <form action="{{ route('create.event') }}" method="POST" enctype="multipart/form-data">
+            <form action="{{ route('update.event', $event->id) }}" method="POST" enctype="multipart/form-data">
                 @csrf
                 <div class="col-md-12">
                     <label class="form-label" for="input-event">Event Name</label>
