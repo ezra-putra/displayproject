@@ -19,12 +19,16 @@
         }
         .card {
             border-radius: 0;
+            border: 0px;
         }
         .body{
             display: flex;
             flex-direction: column;
             justify-content: center;
             height: 100%;
+        }
+        body{
+            background-color: rgb(49, 49, 49);
         }
     </style>
 </head>
